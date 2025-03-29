@@ -353,17 +353,28 @@ display: none;
   justify-content: space-between;
   height: 18vh;
 }
+.logo{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+.num{
+  width: 100%;
+  text-align: left;
+}
 
 .menu-icon{
 display: flex;
 font-size: 3rem;
 color: red;
-width: 45rem;
+width: 20rem;
 display: flex;
 padding-right: 3rem;
 justify-content: end;
 align-items: center;
 }
+
 
 .slider-container {
   position: relative;
@@ -433,6 +444,12 @@ display: none;
   display: flex;
   justify-content: space-between;
   height: 18vh;
+}
+
+.logo{
+display: flex;
+justify-content: space-between;
+width: 100%;
 }
 
 .num{

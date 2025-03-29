@@ -369,6 +369,7 @@ align-items: center;
   position: relative;
   top: 60px;
   width: 100vw;
+  height: 70vh;
 }
 
 .slider img {
@@ -397,6 +398,89 @@ font-weight: 600;
 
 footer .container .loop a, span{
 font-size: 2rem;
+color: #ffff;
+font-weight: 500;
+line-height: 2;
+text-decoration: none;
+}
+
+}
+
+@media (max-width:450px){
+* {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+body {
+background-color: white;
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+
+html{
+font-size: 50%;
+}
+
+.navbar, .quick, .cart{
+display: none;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  height: 18vh;
+}
+
+.menu-icon{
+display: flex;
+font-size: 3rem;
+color: red;
+width: 20rem;
+display: flex;
+padding-right: 3rem;
+justify-content: end;
+align-items: center;
+}
+
+.slider-container {
+  position: relative;
+  top: 60px;
+  width: 100vw;
+  height: 60vh;
+}
+
+.slider img {
+  width: 100vw;
+  height: 50vh;
+  object-fit: contain;
+}
+
+
+.container2 .box{
+  width: 50rem;
+  height: 45rem;
+}
+
+
+footer .container .loop{
+text-align: center;
+width: 30rem;
+gap: 5rem;
+margin: 1rem 0;
+height: auto;
+}
+
+footer .container .loop h2{
+font-size: 2rem;
+font-weight: 600;
+}
+
+footer .container .loop a, span{
+font-size: 1.8rem;
 color: #ffff;
 font-weight: 500;
 line-height: 2;

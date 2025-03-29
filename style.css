@@ -435,6 +435,11 @@ display: none;
   height: 18vh;
 }
 
+.num{
+  width: 100%;
+  text-align: left;
+}
+
 .menu-icon{
 display: flex;
 font-size: 3rem;

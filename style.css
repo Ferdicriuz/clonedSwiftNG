@@ -445,7 +445,7 @@ display: none;
 .top{
   display: flex;
   justify-content: space-between;
-  height: 15vh;
+  height: 12h;
 }
 
 .logo{
@@ -481,7 +481,7 @@ align-items: center;
 .slider img {
   width: 100vw;
   height: 50vh;
-  object-fit: contain;
+  object-fit:auto;
 }
 
 
